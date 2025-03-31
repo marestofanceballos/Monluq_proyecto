@@ -1,0 +1,106 @@
+/* footer.css */
+
+/* Estilos generales del footer */
+.footer {
+    background-color: #D5C7A3; /* Color oscuro */
+    color: black;
+    text-align: center;
+    padding: 1.5rem 0;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  
+  /* Contenedor principal */
+  .footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Filas y columnas */
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-col {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Links */
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 5px 0;
+  }
+  
+  .footer-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contacto */
+  .contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  /* Íconos */
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+    fill: black;
+  }
+  
+  /* Redes sociales */
+  .botonesredes {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;  /* Tamaño más pequeño */
+    height: 32px; /* Tamaño más pequeño */
+    background-color: transparent; /* Sin fondo */
+    border-radius: 50%; /* Redondo */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .botonesredes svg {
+    width: 30px;  /* Tamaño del icono */
+    height: 30px; /* Tamaño del icono */
+    fill: black;  /* Color blanco */
+    margin-right: 10px;/* Separación de los logos */
+  }
+  
+  
+  
+  
+  /* Línea divisoria */
+  .footer-divider {
+    background-color: black;
+    height: 1px;
+    border: none;
+    margin: 10px auto;
+    width: 80%;
+  }

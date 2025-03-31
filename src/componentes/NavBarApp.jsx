@@ -42,9 +42,6 @@ const NavBarApp = () => {
               <li className="nav-item">
                 <a className="nav-link" href="#">Contacto</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Iniciar Sesion</a>
-              </li>
             
             </ul>
             <div
