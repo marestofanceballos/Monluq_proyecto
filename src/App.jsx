@@ -9,36 +9,19 @@ import Card from './componentes/Card';
 const App = () => {
   const carouselImg = [
     {
-      src: "1.jpg",
+      src: "banner3.png",
       alt: "Imagen 1",
     },
-    {
-      src: "2.jpg",
-      alt: "Imagen 2",
-    },
-    {
-      src: "3.jpg",
-      alt: "Imagen 3",
-    },
-    {
-      src: "4.jpg",
-      alt: "Imagen 4",
-    },
-    {
-      src: "5.jpg",
-      alt: "Imagen 5",
-    },
+   
   ];
   return (
     <>
        <NavBarApp/>
        <CarouselApp carouselImg={carouselImg} id={"carousel1"} />
-       <Card/>
-      <div className="container">
-      <div className="row">
-        <div className="col">
-
-        </div>
+       
+      <div className="container"> 
+      <div className="row row-cols-1 row-cols-md-2 g-4">
+        <Card/>
       </div>
     </div>
    

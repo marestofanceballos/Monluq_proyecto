@@ -1,14 +1,14 @@
 import React from 'react'
 import "../styles/navbar.css"
-import logo from '../assets/logo.png'
+import logo from '../assets/logito.png'
 
 
 const NavBarApp = () => {
   return (
     <nav id="menu" className="navbar navbar-expand-lg">
         <div className="container">
-          <a className="navbar-brand d-flex gap-4" href="#"> <img src={logo} alt="logo de Monluq" width={39} />
-          <span>Monluq</span></a>
+          <a className="navbar-brand d-flex gap-4" href="#"> <img src={logo} alt="logo de Monluq" width={100} />
+         </a>
           <button
             className="navbar-toggler"
             type="button"
